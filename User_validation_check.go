@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -21,9 +23,9 @@ func main() {
 		return
 	} else if age >= 18 {
 		fmt.Println("Hello", name, "you are", age, "years Old")
-	} else if age <=17{
-		fmt.Println(name,"you are",age,"valid registration age 18 Above")
-		return 
+	} else if age <= 17 {
+		fmt.Println(name, "you are", age, "valid registration age 18 Above")
+		return
 	}
 
 	var school string

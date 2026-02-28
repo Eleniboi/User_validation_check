@@ -22,8 +22,8 @@ func main() {
 		fmt.Println("Invalid Number Enter a Valid Number: ")
 		return
 	}
-	for p := 1; p <= i; p++ {
-		if p%2 == 0 {
+	for p := 3; p <= i; p += 2 {
+		/*if p%2 == 0 */ {
 			fmt.Println(p)
 		}
 	}
